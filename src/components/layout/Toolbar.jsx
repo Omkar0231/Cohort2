@@ -1,4 +1,3 @@
-// src/components/layout/Toolbar.jsx
 import React from 'react';
 import Button from '../ui/Button';
 import Dropdown from '../ui/Dropdown';

@@ -1,4 +1,3 @@
-// src/components/ui/Dropdown.jsx
 import React from 'react';
 
 const Dropdown = () => (
