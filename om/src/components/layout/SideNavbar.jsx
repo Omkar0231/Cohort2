@@ -8,7 +8,6 @@ import {
     IconSettings,
     IconHelp,
     IconMessage,
-    IconLock,
     IconCurrencyDollar,
 } from "@tabler/icons-react";
 
@@ -29,7 +28,7 @@ const Sidebar = () => {
     ];
 
     return (
-        <div className="flex flex-col h-screen w-64 bg-gray-100 border-r">
+        <div className="flex flex-col h-[calc(100vh-64px)] w-64 bg-gray-100 border-r">
             <div className="flex flex-col flex-grow overflow-y-auto p-4 space-y-4">
                 <nav className="space-y-2">
                     {menuItems.map((item, idx) => (

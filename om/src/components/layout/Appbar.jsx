@@ -1,3 +1,4 @@
+// src/components/layout/Appbar.jsx
 import React from 'react';
 import Toolbar from './Toolbar';
 
