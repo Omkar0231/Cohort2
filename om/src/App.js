@@ -1,4 +1,3 @@
-// src/App.js
 import React from 'react';
 import Topbar from './components/layout/Topbar';
 import Sidebar from './components/layout/SideNavbar';

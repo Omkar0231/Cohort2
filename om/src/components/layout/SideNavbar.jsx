@@ -28,7 +28,7 @@ const Sidebar = () => {
     ];
 
     return (
-        <div className="flex flex-col h-[calc(100vh-64px)] w-64 bg-gray-100 border-r">
+        <div className="flex flex-col h-[calc(100vh-64px)] w-60 bg-gray-100 border-r">
             <div className="flex flex-col flex-grow overflow-y-auto p-4 space-y-4">
                 <nav className="space-y-2">
                     {menuItems.map((item, idx) => (
@@ -64,7 +64,7 @@ const Sidebar = () => {
             <div className="p-4 space-y-2 text-sm text-gray-500 border-t border-gray-300">
                 <a href="#" className="block hover:text-blue-600">Terms of Service</a>
                 <a href="#" className="block hover:text-blue-600">Privacy Policy</a>
-                <p className="mt-2 text-xs text-gray-400">© 2025 WUE_OM</p>
+                <p className="mt-2 text-xs text-gray-400">© 2025 WUE_OM, Inc.</p>
             </div>
         </div>
     );
