@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Dropdown = () => (
-    <select className="border px-2 py-1 rounded">
+    <select className="flex flex-col justify-center">
         <option>Sort by</option>
         <option>Date</option>
         <option>Name</option>
