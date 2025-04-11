@@ -4,7 +4,7 @@ import { List, Table } from 'lucide-react';
 const ToggleView = () => {
     const [view, setView] = useState('list');
 
-    const buttonBaseStyle = "p-2 border rounded-md transition-colors duration-200";
+    const buttonBaseStyle = "h-10 w-10 flex items-center justify-center border rounded-md transition-colors duration-200";
     const activeStyle = "bg-blue-500 text-white";
     const inactiveStyle = "bg-white text-gray-700 hover:bg-gray-100";
 
