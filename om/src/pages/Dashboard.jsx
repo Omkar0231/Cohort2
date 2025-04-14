@@ -1,16 +1,17 @@
-// src/pages/Dashboard.jsx
-import React from 'react';
-import CardList from '../components/ui/CardList';
+import React, { useState } from 'react';
+import Toolbar from '../components/layout/Toolbar';
+import ListView from '../components/ui/ListView';
+import TableView from '../components/ui/TableView';
 
 const Dashboard = () => {
-    const sampleData = [
-        { title: "Team Alpha", description: "AI-based Solution" },
-        { title: "Hackers United", description: "Web3 Integration" },
-    ];
+    const [view, setView] = useState('list');
 
     return (
         <div className="p-4">
-            <CardList data={sampleData} />
+            <Toolbar view={view} setView={setView} />
+            <div className="mt-6">
+                {view === 'list' ? <ListView /> : <TableView />}
+            </div>
         </div>
     );
 };
