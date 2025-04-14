@@ -2,7 +2,7 @@ import React from 'react';
 import { List, Table } from 'lucide-react';
 
 const ToggleView = ({ view, setView }) => {
-    const buttonBase = "h-10 w-10 flex items-center justify-center border rounded-md transition";
+    const buttonBase = "h-9 w-9 flex items-center justify-center border rounded-md transition mt-6";
     const active = "bg-blue-500 text-white";
     const inactive = "bg-white text-gray-700 hover:bg-gray-100";
 

@@ -1,4 +1,3 @@
-// src/components/ui/CardList.jsx
 import React from 'react';
 
 const CardList = ({ data }) => (
