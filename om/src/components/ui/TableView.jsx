@@ -1,18 +1,13 @@
 import React from 'react';
+import hackathonData from '../../data/hackathonData';
 
 const TableView = () => {
-    const data = [
-        { name: 'Hackathon A', date: '2025-04-11', status: 'Active' },
-        { name: 'Hackathon B', date: '2025-04-12', status: 'Closed' },
-        { name: 'Hackathon C', date: '2025-04-13', status: 'Upcoming' },
-    ];
-
     return (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {data.map((item, idx) => (
+            {hackathonData.map((item, idx) => (
                 <div
                     key={idx}
-                    className="p-4 border rounded-lg shadow-md bg-white dark:bg-gray-800"
+                    className="p-4 border rounded-lg shadow-md bg-blue-50 hover:bg-blue-100 dark:hover:bg-blue-400 transition duration-200 ease-in-out"
                 >
                     <div className="text-xl font-bold">{item.name}</div>
                     <div className="text-sm mt-1 text-gray-500 dark:text-gray-300">

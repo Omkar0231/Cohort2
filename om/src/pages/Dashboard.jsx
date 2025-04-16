@@ -1,17 +1,15 @@
 import React, { useState } from 'react';
-import Toolbar from '../components/layout/Toolbar';
 import ListView from '../components/ui/ListView';
 import TableView from '../components/ui/TableView';
+import Toolbar from '../components/layout/Toolbar';
 
 const Dashboard = () => {
-    const [view, setView] = useState('list');
+    const [view, setView] = useState('table');
 
     return (
-        <div className="p-4">
+        <div className="p-4 space-y-6">
             <Toolbar view={view} setView={setView} />
-            <div className="mt-6">
-                {view === 'list' ? <ListView /> : <TableView />}
-            </div>
+            {view === 'list' ? <ListView /> : <TableView />}
         </div>
     );
 };

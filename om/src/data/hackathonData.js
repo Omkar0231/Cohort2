@@ -1,0 +1,30 @@
+const hackathonData = [
+    { name: 'Hackathon A', date: '2025-04-11', status: 'Active' },
+    { name: 'Hackathon B', date: '2025-04-12', status: 'Closed' },
+    { name: 'Hackathon C', date: '2025-04-13', status: 'Upcoming' },
+    { name: 'Hackathon D', date: '2025-04-14', status: 'Active' },
+    { name: 'Hackathon E', date: '2025-04-15', status: 'Closed' },
+    { name: 'Hackathon F', date: '2025-04-16', status: 'Upcoming' },
+    { name: 'Hackathon G', date: '2025-04-17', status: 'Active' },
+    { name: 'Hackathon H', date: '2025-04-18', status: 'Closed' },
+    { name: 'Hackathon I', date: '2025-04-19', status: 'Upcoming' },
+    { name: 'Hackathon J', date: '2025-04-20', status: 'Active' },
+    { name: 'Hackathon K', date: '2025-04-21', status: 'Closed' },
+    { name: 'Hackathon L', date: '2025-04-22', status: 'Upcoming' },
+    { name: 'Hackathon M', date: '2025-04-23', status: 'Active' },
+    { name: 'Hackathon N', date: '2025-04-24', status: 'Closed' },
+    { name: 'Hackathon O', date: '2025-04-25', status: 'Upcoming' },
+    { name: 'Hackathon P', date: '2025-04-26', status: 'Active' },
+    { name: 'Hackathon Q', date: '2025-04-27', status: 'Closed' },
+    { name: 'Hackathon R', date: '2025-04-28', status: 'Upcoming' },
+    { name: 'Hackathon S', date: '2025-04-29', status: 'Active' },
+    { name: 'Hackathon T', date: '2025-04-30', status: 'Closed' },
+    { name: 'Hackathon U', date: '2025-05-01', status: 'Upcoming' },
+    { name: 'Hackathon V', date: '2025-05-02', status: 'Active' },
+    { name: 'Hackathon W', date: '2025-05-03', status: 'Closed' },
+    { name: 'Hackathon X', date: '2025-05-04', status: 'Upcoming' },
+    { name: 'Hackathon Y', date: '2025-05-05', status: 'Active' },
+    { name: 'Hackathon Z', date: '2025-05-06', status: 'Closed' }
+];
+
+export default hackathonData;

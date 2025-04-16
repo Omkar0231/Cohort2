@@ -1,18 +1,13 @@
 import React from 'react';
+import hackathonData from '../../data/hackathonData';
 
 const ListView = () => {
-    const data = [
-        { name: 'Hackathon A', date: '2025-04-11', status: 'Active' },
-        { name: 'Hackathon B', date: '2025-04-12', status: 'Closed' },
-        { name: 'Hackathon C', date: '2025-04-13', status: 'Upcoming' },
-    ];
-
     return (
         <div className="space-y-4">
-            {data.map((item, idx) => (
+            {hackathonData.map((item, idx) => (
                 <div
                     key={idx}
-                    className="p-4 border rounded-md shadow-sm bg-white dark:bg-gray-800"
+                    className="p-4 border rounded-md shadow-sm bg-blue-50 hover:bg-blue-100 dark:hover:bg-blue-400 transition duration-200 ease-in-out"
                 >
                     <div className="text-lg font-semibold">{item.name}</div>
                     <div className="text-sm text-gray-600 dark:text-gray-300">
