@@ -6,6 +6,8 @@ import Appbar from './components/layout/Appbar';
 import Dashboard from './pages/Dashboard';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import UnderMaintenance from './pages/UnderMaintenance';
+
 
 function App() {
   return (
@@ -30,9 +32,15 @@ function App() {
             </div>
           }
         />
+
+        {/* Placeholder routes */}
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/maintenance" element={<UnderMaintenance />} />
+
+        {/* ⛔ Future page placeholder */}
+        <Route path="/analytics" element={<UnderMaintenance />} />
+        <Route path="/user-profile" element={<UnderMaintenance />} />
       </Routes>
     </Router>
   );
